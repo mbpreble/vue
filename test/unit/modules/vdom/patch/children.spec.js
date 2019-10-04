@@ -42,7 +42,7 @@ function shuffle (array) {
 const inner = prop('innerHTML')
 const tag = prop('tagName')
 
-describe('vdom patch: children', () => {
+fdescribe('vdom patch: children', () => {
   let vnode0
   beforeEach(() => {
     vnode0 = new VNode('p', { attrs: { id: '1' }}, [createTextVNode('hello world')])
